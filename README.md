@@ -192,4 +192,5 @@ Following directory structure is created for each category, inside of 'artifacts
 
 # Additional
 Be prepared for disturbing content, not for gentle people.
+
 Tested on Windows 7 and 10.
