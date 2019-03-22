@@ -16,7 +16,7 @@ Dataset was borrowed from https://github.com/sofwerx/tensorflow-gun-detection an
 ```
 pip install -r requirements.txt
 ```
-Fill in API keys for Twitter and credentials for Instagram
+Fill in API keys for Twitter and credentials for Instagram in lines 33-39
 
 # Usage
 ```
