@@ -1,0 +1,9 @@
+nudity
+InstagramApi
+colorama
+matplotlib
+Cython
+contextlib2
+jupyter
+pillow
+tweepy
