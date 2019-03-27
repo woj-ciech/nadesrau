@@ -2,7 +2,7 @@
 Detect firearm and nudity on Twitter and Instagram
 
 It uses Tensorflow object detection API and nudity python package. 
-Dataset was borrowed from https://github.com/sofwerx/tensorflow-gun-detection and model has been trained in Google ML Cloud to 150k steps with total loss approx 1,4.
+Dataset was borrowed from https://github.com/sofwerx/tensorflow-gun-detection and model has been trained in Google ML Cloud to 150k steps with total loss approx 1,4 with ssd mobilenet v1.
 
 # Requirements 
 - Tensorflow object detection (https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
@@ -194,3 +194,5 @@ Following directory structure is created for each category, inside of 'artifacts
 Be prepared for disturbing content, not for gentle people.
 
 Tested on Windows 7 and 10.
+
+You can train your own model, export graph and replace it in project!
