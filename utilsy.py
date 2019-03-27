@@ -15,7 +15,7 @@ class Utilsy:
         try:
                 image_np = firearms.load_image_into_numpy_array(image=image)
                 #image_np_expanded = np.expand_dims(image_np, axis=0)
-                graph = firearms.load_graph('graphfinish.pb')
+                graph = firearms.load_graph('frozen_graph.pb')
 
                 output_dict = firearms.run_inference_for_single_image(image_np, graph)
 
